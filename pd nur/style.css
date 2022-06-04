@@ -1,0 +1,132 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open-Sans',sans-serif;
+}
+
+.wrapper {
+	width: 1300px;
+	margin: auto;
+}
+.logo a {
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	font-family: courier;
+	color: #632626;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 50px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background:#DACC96 ;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	border-radius: 15px;
+	background: #BF8B67;
+	/*margin: 0.02px;*/
+	color: black;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color:  #632626;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color:  #632626;
+	width: 100%;
+	line-height: 50px;
+}
+
+.kolomprofil {
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-family: 'comic sans ms';
+	font-size: 25px;
+	color: black;
+	}
+
+.conteudo1 {
+	border-top: 500px;
+	width: 900px;
+	padding: 20px;
+	margin: 50px 200px 10px;
+	background: #E4AEC5;
+	transition: all 0.5s ease;
+	border: 1px solid #E4AEC5;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+	border-radius: 15px 25px;
+	background-color: rgb(240, 240, 240);
+}
+
+	.conteudo2 {
+	border-top: 500px;
+	width: 1100px;
+	padding: 20px;
+	margin: 50px 100px 10px;
+	background: #E4AEC5;
+	transition: all 0.5s ease;
+	border: 1px solid #E4AEC5;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+	border-radius: 15px 25px;
+	background-color: rgb(240, 240, 240);
+}
